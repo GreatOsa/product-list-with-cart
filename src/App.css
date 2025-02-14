@@ -82,6 +82,7 @@ ul {
 }
 
 .addToCart {
+  max-width: 200px;
   /* z-index: 999; */
   bottom: -25px;
   left: 50%;
@@ -90,15 +91,47 @@ ul {
   width: 50%;
   margin: auto;
   padding: 0.8rem 1.5rem;
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
   align-items: center;
   border-radius: 50px;
   /* margin: 1rem 0; */
   background-color: var(--Rose-50);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
+.addToCart .first {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+img.active {
+  border: 4px solid var(--Red);
+}
+
+.active {
+  background-color: var(--Red);
+
+}
+
+.addToCart .second {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.second p {
+  /* font-size: 40rem; */
+  font-weight: 600;
+  color: var(--Rose-50);
+}
+
+.icon {
+  width: fit-content;
+
+  border-radius: 50px;
+}
+
+
 
 .addToCart img {
   width: 1.5rem;
