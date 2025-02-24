@@ -467,6 +467,14 @@ font-size: 1.6rem;
     max-width: 500px;
     height: fit-content;
   }
+
+  .OrderConfirmed {
+    width: 40%;
+    max-width: 600px;
+    margin: auto auto;
+    margin-bottom: 2.5rem;
+    height: fit-content;
+  }
 }
 
 
