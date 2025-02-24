@@ -1,6 +1,27 @@
+@font-face {
+  font-family: 'RedHatText-Regular';
+  src: local('RedHatText-Regular'), url(./../fonts/static/RedHatText-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'RedHatText-SemiBold';
+  src: local('RedHatText-SemiBold'), url(./../fonts/static/RedHatText-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'RedHatText-Bold';
+  src: local('RedHatText-Bold'), url(./../fonts/static/RedHatText-Bold.ttf) format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: RedHatText-Regular, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
